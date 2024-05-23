@@ -1,11 +1,14 @@
 *{
     margin: 0;
 }
-
-body{
+html 
+{
+  scroll-behavior: smooth;
+}
+body
+{
     font-family: Arial, sans-serif;  
 }
-
 .container{
     display: flex;
     flex-direction: column;
