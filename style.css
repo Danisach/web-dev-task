@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    display: flex;
+    justify-content: right;
+    
+}
+
+.h1{
+    text-align: center;
+    font-size: 20px;
+    padding: 2px;
+}
+.heading{
+    margin-top: 30px;
+    background-color: #ca6ddd;
+    display:inline-block;
+    color: white;
+    padding: 6px 70px;
+    border-radius: 10px;
+}
+
+.p1{
+   margin-top: 40px;
+   text-align: center; 
+}
+.horizontal_line 
+{
+    margin: 40px 25%;
+    width: 50%;
+    height: 3px;
+    border-top: 4px dashed #ca6ddd;
+    line-height: 80%;
+}
+.heading2
+{
+    text-align: center;
+}
+.sub-heading
+{
+    text-align: center;
+}
+.heading3
+{
+    margin-top: 30px;
+    display:inline-block;
+    color: #f5f1f1;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #ca6ddd;
+    padding: 5px;
+}
+
+
+ /* Testimonials */
+.testimonial-grid 
+{
+	display: grid;
+    grid-template-columns: auto auto auto;
+	max-width: 1200px;
+	margin: 0 30%;
+	padding: 40px 0;
+	text-align: center;
+}
+.testimonial-avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	overflow: hidden;
+	margin: 0 auto 20px;
+}
+
+.testimonial-avatar img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.testimonial-text {
+	margin-bottom: 20px;
+}
+
+.testimonial-name {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #333333;
+    
+}
+
+.testimonial-role {
+	font-size: 16px;
+	color: #ca6ddd;
+}
+.testimonial-container
+{
+    width: 200px;
+    
+}
+.con
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card
+{
+    background: white;
+    width: 270px;
+    height: 200px;
+    margin: 10px; 
+}
+.cardImg
+{
+    background-size: cover;
+    width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	overflow: hidden;
+	margin: 0 auto 20px;
+}
+.test-1
+{
+ background-image: url("./T/Ronald\ Reitz.jpg");
+}
+.test-2
+{
+ background-image: url("./T/Edward-Cullen.jpg");
+}
+.test-3
+{
+ background-image: url("./T/Patrick\ Wilson.jpg");
+}
+.test-4
+{
+ background-image: url("./T/Chris\ Stallon.jpg");
+}
+.test-5
+{
+ background-image: url("./T/John\ Dick.jpg");
+}
+.test-6
+{
+ background-image: url("./T/Dan\ Zinnan.jpg");
+}
+.test-7
+{
+ background-image: url("./T/Mick\ Jameson.jpg");
+}
+.test-8
+{
+ background-image: url("./T/Alyssa\ Lewis.jpg");
+}
+.test-9
+{
+ background-image: url("./T/Diana\ Schewarzeneggar.jpg");
+}
+.test-10
+{
+ background-image: url("./T/Elizabeth\ Ross.jpg");
+}
+.test-11
+{
+ background-image: url("./T/Sopra Steria.jpg");
+}
+.test-12
+{
+ background-image: url("./T/Norman Osborn.jpg");
+}
+.test-13
+{
+ background-image: url("./T/Akash\ Rane.jpg");
+}
+.test-14
+{
+ background-image: url("./T/Ana Paris.jpg");
+}
+.test-15
+{
+ background-image: url("./T/Andrew Lewis.jpg");
+}
+.test-16
+{
+ background-image: url("./T/Shubham\ Singh.jpg");
+}
+.test-17
+{
+ background-image: url("./T/Eva\ Norman.jpg");
+}
+
+.name
+{
+    text-align: center;
+    font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #333333;
+}
+.role
+{
+    text-align: center;
+    font-size: 16px;
+	color: #ca6ddd;
+}
+.image2
+{
+     float: left;
+    -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+}
+.sh-3
+{
+    margin-left: 45%;
+}
+.Development-con
+{
+    margin: 70px 10%;
+    display: flex;
+    justify-content:start;
+    flex-wrap: wrap;
+}
+.Development-card
+{
+
+    background: white;
+    width: 250px;
+    height: 200px;
+    margin: 10px; 
+}
+.Sales
+{
+    position: absolute;
+    right: 0%;
+}
+.Sales-heading
+{
+    text-align: center;
+}
+.Sales
+{
+  padding: 4px;
+}
+
+
+/* For Small Devices */
+@media (max-width: 430px) 
+{ 
+    .testimonial-grid
+    {
+       margin: 0 10px;
+      
+    }
+
+    .Sales-head
+    {
+        margin-left: -125px;
+    }
+ }  
+
+
+/* For Tablet Devices */
+@media (max-width: 768px) 
+{
+    .testimonial-grid
+    {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+
+
+/* For Large Laptop */
+@media (min-width: 1440px) 
+{
+    .testimonial-grid
+    {
+        margin: 0 35%;
+    }
+}
